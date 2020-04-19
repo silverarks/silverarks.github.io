@@ -1,0 +1,36 @@
+header, footer {
+  text-align: center;
+  padding: 1em;
+  margin:  0.25em;
+  background-color: skyblue;
+}
+
+.middle {
+  display: flex;
+}
+
+main { order: 1;
+  padding: 0.5em;
+  margin: 0.25em;
+  background-color: #E6E6FA;
+}
+
+nav {
+  order: 0;
+  width: 20em;
+  margin: 0.25em;
+  text-align: center;
+  background-color: #DFD;
+}
+
+nav ul { padding: 0; }
+
+nav li { list-style: none; }
+
+aside {
+  order: 1;
+  width:  30em;
+  margin:  0.25em;
+  padding:  0.5em;
+  background-color: #FDF;
+}
